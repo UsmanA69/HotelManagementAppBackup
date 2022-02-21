@@ -1,0 +1,64 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin: 1px !important; */
+}
+body{
+    margin: 0 !important;
+    overflow-x: hidden !important;
+}
+.loading-div{
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+}
+/* .item1{
+    border: 1px solid black;
+} */
+.item-inside{
+    /* border: 1px solid black; */
+    margin: 5px !important;
+}
+.img-div{
+    border: 2px solid lightgray;
+}
+.hotel-details{
+    background: #fcfcfc;
+}
+.price-and-add{
+    margin: 5px;
+}
+.menu{
+    display: flex;
+    justify-content:stretch;
+    align-items: center;
+    padding: 10px;
+    background: lightgray;
+}
+ .cart {
+    text-align: end;
+    margin-right: 2rem;
+    align-items: center;
+    position: relative;
+    visibility: hidden;
+}
+  
+/*
+.cart-icon {
+    width: 50px !important;
+}
+.cart p {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    right: -8px;
+    top: -15px;
+    background: #d3d3d3;
+    color: #fff;
+    font-size: 1.3rem;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: transparent;
+} */

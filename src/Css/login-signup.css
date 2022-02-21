@@ -1,0 +1,128 @@
+.main-container{
+    background: #1a1b3a;
+    width: 100vw;
+    height: 100vh;
+}
+.form-container{
+    padding: 10px;
+    font-family: sans-serif;
+    text-align: center;
+    width: 400px;
+    background: white;
+    color: black;
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,-20%);
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 25px;
+}
+.main-inp-div{
+    padding: 10px !important;
+    margin: 0 !important;
+}
+.inp-div{
+    border: 1px solid gray;
+    height: 35px;
+    border-radius: 10px;
+}
+.inp-div input{
+    border-radius: 10px;
+    border: none;
+    width: 90%;
+    height: 90%;
+}
+.inp-div input::placeholder{
+    opacity: 0.5;
+}
+.inp-div input:focus{
+    outline: none;
+}
+.inp-label-txt{
+    text-align: left;
+    margin-left: 15px !important;
+    padding: 5px;
+    color: gray;
+    font-size: 13px !important;
+    margin: 0 !important;
+}
+.form-div{
+    padding-top: 25px;
+}
+.forgot-pass-div{
+    padding-top: 5px;
+}
+.forgot-pass-txt{
+    text-align: right;
+    padding-right: 5px;
+    color: gray;
+    opacity: 0.6;
+    font-size: 15px;
+}
+.login-div{
+    padding: 10px;
+    padding-top: 25px;
+}
+.login-button{
+    width: 95%;
+    padding: 10px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background: #343436;
+    font-weight: 700;
+}
+.outside-form-div{
+    padding-top: 20px;
+}
+.other-methods-div{
+    padding: 10px;
+}
+.other-methods-div > p{
+    color: gray;
+    opacity: 0.6;
+    font-size: 12px;
+}
+.methods-div{
+    padding: 30px;
+}
+.methods{
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+    display: inline-block;
+    background: #343436;
+    border-radius: 30px;
+    height: 40px;
+    width: 40px;
+}
+.methods p{
+    color: white;
+    font-size: 12px;
+    font-weight: 550;
+    position: relative;
+    top: 25%;
+}
+.signup-div{
+    padding-top: 35px;
+    padding-bottom: 25px;
+}
+.signup-div > p{
+    color: gray;
+    opacity: 0.6;
+    font-size: 12px;
+}
+.signup p {
+    padding: 5px;
+    font-size: 12px;
+    font-weight: 600;
+}
+/* responsive */
+@media (max-width:400px){
+    .form-container{
+        width: auto !important;
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+}
